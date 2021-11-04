@@ -1,6 +1,6 @@
 {
   "name": "prettier-plugin-package-perfection",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Prettier plugin for the prettier-package-json CLI tool",
   "keywords": [
     "package.json",
