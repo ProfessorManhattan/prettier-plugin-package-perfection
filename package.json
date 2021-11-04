@@ -1,41 +1,28 @@
 {
-  "name": "prettier-plugin-packagejson",
-  "version": "0.0.0-development",
-  "description": "Prettier package.json plugin to make the order of properties nice.",
+  "name": "prettier-plugin-package-perfection",
+  "version": "1.0.2",
+  "description": "Prettier plugin for the prettier-package-json CLI tool",
   "keywords": [
     "package.json",
     "plugin",
     "prettier"
   ],
-  "repository": "github:matzkoh/prettier-plugin-packagejson",
   "license": "MIT",
-  "main": "lib",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "dist/main.js",
   "files": [
-    "lib/**/*.js",
-    "!lib/**/*.test.js"
+    "dist",
+    "README.md",
+    "CONTRIBUTING.md",
+    "CHANGELOG.md"
   ],
-  "scripts": {
-    "ci:test": "run-s test send:coverage",
-    "fix": "run-p fix:*",
-    "fix:prettier": "npm run lint:prettier -- --write",
-    "lint": "run-p lint:*",
-    "lint:prettier": "prettier -l \"**/*.{js,json,md,yaml,yml}\"",
-    "send:coverage": "npx codecov",
-    "test": "run-s lint test:*",
-    "test:unit": "jest"
-  },
+  "scripts": {},
   "dependencies": {
-    "sort-package-json": "1.52.0"
+    "prettier-package-json": "2.6.0"
   },
   "devDependencies": {
-    "jest": "27.3.1",
-    "npm-run-all": "4.1.5",
-    "prettier": "2.4.1"
-  },
-  "peerDependencies": {
-    "prettier": ">= 1.16.0"
+    "@megabytelabs/eslint-config": "^1.0.75",
+    "@megabytelabs/jest-preset": "^1.0.0",
+    "@megabytelabs/prettier-config": "^14.14.14",
+    "@typescript-eslint/eslint-plugin": "^5.2.0"
   }
 }
