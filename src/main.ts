@@ -7,8 +7,8 @@ const parser = parsers['json-stringify']
 exports.parsers = {
     'json-stringify': {
         ...parser,
-        preprocess(text, options) {
-            const regex = new RegExp("^package.*json$")
+        preprocess(text: string, options: any) {
+            const regex = new RegExp("package.*json$")
             return regex.test(options.filepath) ? format(JSON.parse(text)) : text
         }
     }
