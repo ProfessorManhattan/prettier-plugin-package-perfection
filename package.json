@@ -37,7 +37,6 @@
     "prettier-package-json": "2.6.0",
     "tslib": "^2.3.1"
   },
-  "optionalDependencies": {},
   "devDependencies": {
     "@megabytelabs/jest-preset": "^1.0.0",
     "@types/node": "^16.11.6",
@@ -78,7 +77,7 @@
     "gitlab_group_id": "",
     "gitlab_project_id": "33303919",
     "group": "npm",
-    "name": "Prettier Package JSON (Prettier Plugin)",
+    "name": "Prettier Package JSON Prettier Plugin",
     "overview": "The **[prettier-package-json](https://www.npmjs.com/package/prettier-package-json)** CLI tool is easily the best `package.json` formatter available. However, despite its name, it is not a Prettier plugin. This project brings all of the great `prettier-package-json` features to Prettier as a plugin. It sorts in an opinionated style and also has some nifty features that other formatters do not have like:\n\n* Sorting in an opinionated manner (common elements at the top of the file and everything else sorted alphabetically afterwards)\n* Sorting scripts while keeping `pre` and `post` commands together\n* Removing redundant or unnecessary fields in favor of more compact syntax\n* More information available on the [prettier-package-json npmjs.org page](https://www.npmjs.com/package/prettier-package-json)",
     "repository": {
       "github": "https://github.com/ProfessorManhattan/prettier-package-json-perfection",

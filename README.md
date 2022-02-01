@@ -1,7 +1,7 @@
 <!-- ⚠️ This README has been generated from the file(s) ".config/docs/blueprint-readme-plugin.md" ⚠️--><div align="center">
   <center>
     <a href="https://github.com/ProfessorManhattan/prettier-package-json-perfection">
-      <img width="148" height="148" alt="Prettier Package JSON (Prettier Plugin) logo" src="https://gitlab.com/megabyte-labs/npm/plugin/prettier-package-json-perfection/-/raw/master/logo.png" />
+      <img width="148" height="148" alt="Prettier Package JSON Prettier Plugin logo" src="https://gitlab.com/megabyte-labs/npm/plugin/prettier-package-json-perfection/-/raw/master/logo.png" />
     </a>
   </center>
 </div>
