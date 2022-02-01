@@ -29,19 +29,19 @@
 </div>
 <br/>
 <div align="center">
-  <a href="website.npm_package/prettier-plugin-package-perfection" title="Version 1.0.6" target="_blank">
+  <a href="https://www.npmjs.com/package/prettier-plugin-package-perfection" title="Version 1.0.6" target="_blank">
     <img alt="Version: 1.0.6" src="https://img.shields.io/badge/version-1.0.6-blue.svg?cacheSeconds=2592000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAACNJREFUCNdjIACY//+BEp9hhM3hAzYQwoBIAqEDYQrCZLwAAGlFKxU1nF9cAAAAAElFTkSuQmCC&style=flat-square" />
   </a>
   <a href="https://gitlab.com/megabyte-labs/npm/plugin/prettier-plugin-package-perfection/-/commits/master" title="GitLab CI build status" target="_blank">
     <img alt="Build status" src="https://img.shields.io/gitlab/pipeline-status/megabyte-labs/npm/plugin/prettier-plugin-package-perfection?branch=master&label=build&logo=gitlab&logoColor=white&style=flat-square">
   </a>
-  <a href="website.npm_package/prettier-plugin-package-perfection" title="Dependency status reported by Depfu" target="_blank">
+  <a href="https://www.npmjs.com/package/prettier-plugin-package-perfection" title="Dependency status reported by Depfu" target="_blank">
     <img alt="Dependency status reported by Depfu" src="https://img.shields.io/depfu/megabyte-labs/prettier-plugin-package-perfection?logo=codeforces&logoColor=white&style=flat-square&logo=npm" />
   </a>
-  <a href="website.npm_package/prettier-plugin-package-perfection" title="Zip file size" target="_blank">
+  <a href="https://www.npmjs.com/package/prettier-plugin-package-perfection" title="Zip file size" target="_blank">
     <img alt="Zip file size" src="https://img.shields.io/bundlephobia/minzip/prettier-plugin-package-perfection?style=flat-square&logo=npm&logoColor=white" />
   </a>
-  <a href="website.npm_package/prettier-plugin-package-perfection" title="Total downloads of prettier-plugin-package-perfection on npmjs.org" target="_blank">
+  <a href="https://www.npmjs.com/package/prettier-plugin-package-perfection" title="Total downloads of prettier-plugin-package-perfection on npmjs.org" target="_blank">
     <img alt="Total downloads of prettier-plugin-package-perfection on npmjs.org" src="https://img.shields.io/npm/dt/prettier-plugin-package-perfection?style=flat-square&logo=npm&logoColor=white" />
   </a>
   <a href="https://snyk.io/advisor/npm-package/prettier-plugin-package-perfection" title="Number of vulnerabilities from Snyk scan on prettier-plugin-package-perfection" target="_blank">
