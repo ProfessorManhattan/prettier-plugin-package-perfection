@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://megabyte.space"
 documentation = "https://megabyte.space/docs/npm/plugins"
-keywords = ["package.json", "plugin", "prettier", "package", "packagejson", "fix", "format", "automatic"]
+keywords = ["automatic", "fix", "format", "mblabs", "megabytelabs", "package", "package.json", "packagejson", "plugin", "prettier", "professormanhattan", "washingtondc"]
 include = ["docs/CHANGELOG.md", "LICENSE"]
 classifiers = [
   "Development Status :: 4 - Beta",
