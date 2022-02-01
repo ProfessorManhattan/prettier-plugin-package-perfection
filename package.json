@@ -1,9 +1,79 @@
 {
+  "private": false,
+  "name": "prettier-plugin-package-perfection",
+  "version": "1.0.6",
+  "description": "A Prettier plugin that formats the package.json file by leveraging the prettier-package-json CLI library",
+  "license": "MIT",
   "author": "Brian Zalewski <brian@megabyte.space> (https://megabyte.space)",
+  "homepage": "https://megabyte.space",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfessorManhattan/prettier-plugin-package-perfection.git"
+  },
+  "bugs": {
+    "email": "help@megabyte.space",
+    "url": "https://gitlab.com/megabyte-labs/npm/plugin/prettier-plugin-package-perfection/-/issues"
+  },
+  "type": "commonjs",
+  "main": "dist/main.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "help": "task --list",
+    "prepare": "task common:husky",
+    "repair": "bash <(curl -sS https://install.doctor/repair)",
+    "start": "bash .config/start.sh"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-emoji-conventional"
+    }
+  },
+  "typings": "dist/main.d.ts",
+  "dependencies": {
+    "prettier": "^2.5.1",
+    "prettier-package-json": "2.6.0",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "@megabytelabs/jest-preset": "^1.0.0",
+    "@types/node": "^16.11.6",
+    "@washingtondc/development": "^1.0.2",
+    "@washingtondc/prettier": "^1.0.0",
+    "@washingtondc/release": "^0.0.2",
+    "cz-emoji-conventional": "^1.0.1",
+    "esbuild": "^0.12.29",
+    "esbuild-node-externals": "^1.3.0",
+    "eslint-config-strict-mode": "^1.0.28",
+    "semantic-release-config": "^0.0.12",
+    "sleekfast": "^0.0.1"
+  },
+  "keywords": [
+    "automatic",
+    "fix",
+    "format",
+    "mblabs",
+    "megabytelabs",
+    "package",
+    "package.json",
+    "packagejson",
+    "plugin",
+    "prettier",
+    "professormanhattan",
+    "washingtondc"
+  ],
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "blueprint": {
     "customPackageName": "prettier-plugin-package-perfection",
     "description": "A Prettier plugin that formats the package.json file by leveraging the prettier-package-json CLI library",
-    "github_id": "R_kgDOGxNXXg",
+    "github_id": "R_kgDOGxNa_w",
     "gitlab_group_id": "",
     "gitlab_project_id": "33305604",
     "group": "npm",
@@ -16,10 +86,6 @@
     "slug": "prettier-plugin-package-perfection",
     "subgroup": "plugin",
     "title": "The Best Package JSON Prettier Plugin"
-  },
-  "bugs": {
-    "email": "help@megabyte.space",
-    "url": "https://gitlab.com/megabyte-labs/npm/plugin/prettier-plugin-package-perfection/-/issues"
   },
   "changelog": {
     "displayTypes": [
@@ -37,33 +103,6 @@
     ],
     "helpUrl": "https://megabyte.space/docs/contributing/commits"
   },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-emoji-conventional"
-    }
-  },
-  "dependencies": {
-    "prettier": "^2.5.1",
-    "prettier-package-json": "2.6.0",
-    "tslib": "^2.3.1"
-  },
-  "description": "A Prettier plugin that formats the package.json file by leveraging the prettier-package-json CLI library",
-  "devDependencies": {
-    "@megabytelabs/jest-preset": "^1.0.0",
-    "@types/node": "^16.11.6",
-    "@washingtondc/development": "^1.0.2",
-    "@washingtondc/prettier": "^1.0.0",
-    "@washingtondc/release": "^0.0.2",
-    "cz-emoji-conventional": "^1.0.1",
-    "esbuild": "^0.12.29",
-    "esbuild-node-externals": "^1.3.0",
-    "eslint-config-strict-mode": "^1.0.28",
-    "semantic-release-config": "^0.0.12",
-    "sleekfast": "^0.0.1"
-  },
-  "engines": {
-    "node": ">=14.18.0"
-  },
   "eslintConfig": {
     "extends": "eslint-config-strict-mode",
     "rules": {
@@ -72,12 +111,6 @@
       "max-lines": "warn"
     }
   },
-  "files": [
-    "dist",
-    "CHANGELOG.md",
-    "LICENSE",
-    "README.md"
-  ],
   "funding": [
     {
       "type": "opencollective",
@@ -88,7 +121,6 @@
       "url": "https://www.patreon.com/ProfessorManhattan"
     }
   ],
-  "homepage": "https://megabyte.space",
   "jest": {
     "preset": "@megabytelabs/jest-preset",
     "reporters": [
@@ -105,21 +137,6 @@
       ]
     ]
   },
-  "keywords": [
-    "automatic",
-    "fix",
-    "format",
-    "mblabs",
-    "megabytelabs",
-    "package",
-    "package.json",
-    "packagejson",
-    "plugin",
-    "prettier",
-    "professormanhattan",
-    "washingtondc"
-  ],
-  "license": "MIT",
   "lint-staged": {
     "**/!(logo).(jpg|png)": [
       "task image:compress --"
@@ -156,8 +173,6 @@
       "task image:compress --"
     ]
   },
-  "main": "dist/main.js",
-  "name": "prettier-plugin-package-perfection",
   "nodemonConfig": {
     "exec": "tsc -p . && node --inspect-brk dist/main",
     "ext": "js,jsx,json,ts,tsx,yml",
@@ -178,10 +193,6 @@
     }
   },
   "prettier": "@washingtondc/prettier",
-  "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
   "release": {
     "branches": [
       "main",
@@ -197,19 +208,5 @@
       }
     ],
     "extends": "semantic-release-config"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ProfessorManhattan/prettier-plugin-package-perfection.git"
-  },
-  "scripts": {
-    "build": "rm -rf dist && tsc -p tsconfig.json",
-    "help": "task --list",
-    "prepare": "task common:husky",
-    "repair": "bash <(curl -sS https://install.doctor/repair)",
-    "start": "bash .config/start.sh"
-  },
-  "type": "commonjs",
-  "typings": "dist/main.d.ts",
-  "version": "1.0.6"
+  }
 }
