@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "plugin-prettier-package-json-perfection"
+name = "plugin-prettier-plugin-package-perfection"
 version = "1.0.6"
 description = "A Prettier plugin that formats the package.json file by leveraging the prettier-package-json CLI library"
 authors = ["Brian Zalewski <brian@megabyte.space>"]
@@ -57,9 +57,9 @@ proselint = "^0.12.0"
 yamllint = "^1.26.3"
 
 [tool.poetry.urls]
-"Bug Tracker" = "https://gitlab.com/megabyte-labs/npm/plugin/prettier-package-json-perfection/-/issues"
-"GitHub" = "https://github.com/ProfessorManhattan/prettier-package-json-perfection"
-"GitLab" = "https://gitlab.com/megabyte-labs/npm/plugin/prettier-package-json-perfection"
+"Bug Tracker" = "https://gitlab.com/megabyte-labs/npm/plugin/prettier-plugin-package-perfection/-/issues"
+"GitHub" = "https://github.com/ProfessorManhattan/prettier-plugin-package-perfection"
+"GitLab" = "https://gitlab.com/megabyte-labs/npm/plugin/prettier-plugin-package-perfection"
 "Give Directly" = "https://givedirectly.org"
 "Open Collective" = "https://opencollective.com/megabytelabs"
 "Patreon" = "https://www.patreon.com/ProfessorManhattan"

@@ -1,59 +1,58 @@
 <!-- ⚠️ This README has been generated from the file(s) ".config/docs/blueprint-readme-plugin.md" ⚠️--><div align="center">
   <center>
-    <a href="https://github.com/ProfessorManhattan/prettier-package-json-perfection">
-      <img width="148" height="148" alt="Prettier Package JSON Prettier Plugin logo" src="https://gitlab.com/megabyte-labs/npm/plugin/prettier-package-json-perfection/-/raw/master/logo.png" />
+    <a href="https://github.com/ProfessorManhattan/prettier-plugin-package-perfection">
+      <img width="148" height="148" alt="Prettier Package JSON Prettier Plugin logo" src="https://gitlab.com/megabyte-labs/npm/plugin/prettier-plugin-package-perfection/-/raw/master/logo.png" />
     </a>
   </center>
 </div>
 <div align="center">
-  <center><h1 align="center">Plugin: The Best Package JSON Prettier Plugin<i></i></h1></center>
+  <center><h1 align="center"><i></i>The Best Package JSON Prettier Plugin<i></i></h1></center>
   <center><h4 style="color: #18c3d1;">A plugin created by <a href="https://megabyte.space" target="_blank">Megabyte Labs</a></h4><i></i></center>
 </div>
 
 <div align="center">
-  <h4 align="center">
-    <a href="website.homepage" title="Megabyte Labs homepage" target="_blank">
-      <img src="https://gitlab.com/megabyte-labs/assets/-/raw/master/svg/home-solid.svg" />
-    </a>
-    <a href="https://gitlab.com/megabyte-labs/npm/prettier-package-json-perfection/-/blob/master/CONTRIBUTING.md" title="Learn about contributing" target="_blank">
-      <img src="https://gitlab.com/megabyte-labs/assets/-/raw/master/svg/contributing-solid.svg" />
-    </a>
-    <a href="chat_url" title="Slack chat room" target="_blank">
-      <img src="https://gitlab.com/megabyte-labs/assets/-/raw/master/svg/chat-solid.svg" />
-    </a>
-    <a href="ProfessorManhattan/npm-prettier-package-json-perfection" title="GitHub mirror" target="_blank">
-      <img src="https://gitlab.com/megabyte-labs/assets/-/raw/master/svg/github-solid.svg" />
-    </a>
-    <a href="https://gitlab.com/megabyte-labs/npm/prettier-package-json-perfection" title="GitLab repository" target="_blank">
-      <img src="https://gitlab.com/megabyte-labs/assets/-/raw/master/svg/gitlab-solid.svg" />
-    </a>
-  </h4>
-  <p align="center">
-    <a href="website.npm_package/prettier-package-json-perfection" target="_blank">
-      <img alt="Version: 1.0.6" src="https://img.shields.io/badge/version-1.0.6-blue.svg?cacheSeconds=2592000&style=for-the-badge" />
-    </a>
-    <a href="https://gitlab.com/megabyte-labs/npm/prettier-package-json-perfection/commits/master" title="GitLab CI build status" target="_blank">
-      <img alt="Build status" src="https://gitlab.com/megabyte-labs/npm/prettier-package-json-perfection/badges/master/pipeline.svg">
-    </a>
-    <a href="website.npm_package/prettier-package-json-perfection" title="Dependency status reported by Depfu">
-      <img alt="Dependency status reported by Depfu" src="https://img.shields.io/depfu/megabyte-labs/npm-prettier-package-json-perfection?style=for-the-badge&logo=npm" />
-    </a>
-    <a href="website.npm_package/prettier-package-json-perfection" title="Zip file size">
-      <img alt="Zip file size" src="https://img.shields.io/bundlephobia/minzip/prettier-package-json-perfection?style=bad_style&logo=npm" />
-    </a>
-    <a href="" title="Total downloads of prettier-package-json-perfection on npmjs.org">
-      <img alt="Total downloads of prettier-package-json-perfection on npmjs.org" src="https://img.shields.io/npm/dt/prettier-package-json-perfection?logo=npm&style=for-the-badge&logo=npm" />
-    </a>
-    <a href="website.npm_package/prettier-package-json-perfection" title="Number of vulnerabilities from Snyk scan on prettier-package-json-perfection">
-      <img alt="Number of vulnerabilities from Snyk scan on prettier-package-json-perfection" src="https://img.shields.io/snyk/vulnerabilities/npm/prettier-package-json-perfection?style=for-the-badge&logo=npm" />
-    </a>
-    <a href="website.documentation/npm" target="_blank">
-      <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg?logo=readthedocs&style=for-the-badge" />
-    </a>
-    <a href="https://gitlab.com/megabyte-labs/npm/prettier-package-json-perfection/-/raw/master/LICENSE" target="_blank">
-      <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg?style=for-the-badge" />
-    </a>
-  </p>
+  <a href="https://megabyte.space" title="Megabyte Labs homepage" target="_blank">
+    <img alt="Homepage" src="https://img.shields.io/website?down_color=%23FF4136&down_message=Down&label=Homepage&logo=home-assistant&logoColor=white&up_color=%232ECC40&up_message=Up&url=https%3A%2F%2Fmegabyte.space&style=for-the-badge" />
+  </a>
+  <a href="https://github.com/ProfessorManhattan/prettier-plugin-package-perfection/blob/master/CONTRIBUTING.md" title="Learn about contributing" target="_blank">
+    <img alt="Contributing" src="https://img.shields.io/badge/Contributing-Guide-0074D9?logo=github-sponsors&logoColor=white&style=for-the-badge" />
+  </a>
+  <a href="https://app.slack.com/client/T01ABCG4NK1/C01NN74H0LW/details/" title="Chat with us on Slack" target="_blank">
+    <img alt="Slack" src="https://img.shields.io/badge/Slack-Chat-e01e5a?logo=slack&logoColor=white&style=for-the-badge" />
+  </a>
+  <a href="https://github.com/ProfessorManhattan/prettier-plugin-package-perfection" title="GitHub mirror" target="_blank">
+    <img alt="GitHub" src="https://img.shields.io/badge/Mirror-GitHub-333333?logo=github&style=for-the-badge" />
+  </a>
+  <a href="https://gitlab.com/megabyte-labs/npm/plugin/prettier-plugin-package-perfection" title="GitLab repository" target="_blank">
+    <img alt="GitLab" src="https://img.shields.io/badge/Repo-GitLab-fc6d26?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAHJJREFUCNdNxKENwzAQQNEfWU1ZPUF1cxR5lYxQqQMkLEsUdIxCM7PMkMgLGB6wopxkYvAeI0xdHkqXgCLL0Beiqy2CmUIdeYs+WioqVF9C6/RlZvblRNZD8etRuKe843KKkBPw2azX13r+rdvPctEaFi4NVzAN2FhJMQAAAABJRU5ErkJggg==&style=for-the-badge" />
+  </a>
+</div>
+<br/>
+<div align="center">
+  <a href="website.npm_package/prettier-plugin-package-perfection" title="Version 1.0.6" target="_blank">
+    <img alt="Version: 1.0.6" src="https://img.shields.io/badge/version-1.0.6-blue.svg?cacheSeconds=2592000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAACNJREFUCNdjIACY//+BEp9hhM3hAzYQwoBIAqEDYQrCZLwAAGlFKxU1nF9cAAAAAElFTkSuQmCC&style=flat-square" />
+  </a>
+  <a href="https://gitlab.com/megabyte-labs/npm/plugin/prettier-plugin-package-perfection/-/commits/master" title="GitLab CI build status" target="_blank">
+    <img alt="Build status" src="https://img.shields.io/gitlab/pipeline-status/megabyte-labs/npm/plugin/prettier-plugin-package-perfection?branch=master&label=build&logo=gitlab&logoColor=white&style=flat-square">
+  </a>
+  <a href="website.npm_package/prettier-plugin-package-perfection" title="Dependency status reported by Depfu" target="_blank">
+    <img alt="Dependency status reported by Depfu" src="https://img.shields.io/depfu/megabyte-labs/prettier-plugin-package-perfection?logo=codeforces&logoColor=white&style=flat-square&logo=npm" />
+  </a>
+  <a href="website.npm_package/prettier-plugin-package-perfection" title="Zip file size" target="_blank">
+    <img alt="Zip file size" src="https://img.shields.io/bundlephobia/minzip/prettier-plugin-package-perfection?style=flat-square&logo=npm&logoColor=white" />
+  </a>
+  <a href="website.npm_package/prettier-plugin-package-perfection" title="Total downloads of prettier-plugin-package-perfection on npmjs.org" target="_blank">
+    <img alt="Total downloads of prettier-plugin-package-perfection on npmjs.org" src="https://img.shields.io/npm/dt/prettier-plugin-package-perfection?style=flat-square&logo=npm&logoColor=white" />
+  </a>
+  <a href="https://snyk.io/advisor/npm-package/prettier-plugin-package-perfection" title="Number of vulnerabilities from Snyk scan on prettier-plugin-package-perfection" target="_blank">
+    <img alt="Number of vulnerabilities from Snyk scan on prettier-plugin-package-perfection" src="https://img.shields.io/snyk/vulnerabilities/npm/prettier-plugin-package-perfection?style=flat-square&logo=snyk&logoColor=white" />
+  </a>
+  <a href="website.documentation/npm" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg?logo=readthedocs&logoColor=white&style=flat-square" />
+  </a>
+  <a href="https://github.com/ProfessorManhattan/prettier-plugin-package-perfection/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAHpJREFUCNdjYOD/wMDAUP+PgYHxhzwDA/MB5gMM7AwMDxj4GBgKGGQYGCyAEEgbMDDwAAWAwmk8958xpIOI5zKH2RmOyhxmZjguAiKmgIgtQOIYmFgCIp4AlaQ9OczGkJYCJEAGgI0CGwo2HmwR2Eqw5SBnNIAdBHYaAJb6KLM15W/CAAAAAElFTkSuQmCC&style=flat-square" />
+  </a>
 </div>
 
 > </br><h3 align="center">**A Prettier plugin that formats the package.json file by leveraging the prettier-package-json CLI library**</h3></br>
@@ -64,6 +63,7 @@
 
 - [Overview](#overview)
 - [Requirements](#requirements)
+  - [Developer Requirements](#developer-requirements)
 - [Usage / Installation](#usage--installation)
 - [Shared Configuration](#shared-configuration)
 - [Example Configuration](#example-configuration)
@@ -85,8 +85,22 @@ The **[prettier-package-json](https://www.npmjs.com/package/prettier-package-jso
 
 ## Requirements
 
+If you are simply including this library in your project, all you need is a recent version of Node.js. **[Node.js >14.18.0](repository.project.node)** is sometimes required and is the only version range we actively support. Albeit, it is highly probable that lower versions will work as well depending on the requirements that this project imports.
+
+### Developer Requirements
+
+The following versions of Node.js and Python are required for development:
+
 - **[Node.js >14.18.0](repository.project.node)**
 - **[Python >3.10.0](repository.project.python)**
+
+Other versions may work, but only the above versions are supported. Most development dependencies are installed automatically by our `Taskfile.yml` set-up (even Node.js and Python). Run `bash start.sh` to install **[Bodega](https://github.com/ProfessorManhattan/Bodega)** (an improved fork of [go-task](https://github.com/go-task/task)) and run the initialization sequence. The taskfiles will automatically install dependencies as they are needed, based on what development tasks you are running. For more information, check out the [CONTRIBUTING.md](https://github.com/ProfessorManhattan/prettier-plugin-package-perfection/blob/main/docs/CONTRIBUTING.md) or simply run:
+
+```shell
+npm run help
+```
+
+`npm run help` will ensure Bodega is installed and then open an interactive dialog where you can explore and learn about various developer commands.
 
 <a href="#usage--installation" style="width:100%"><img style="width:100%" src="https://gitlab.com/megabyte-labs/assets/-/raw/master/png/aqua-divider.png" /></a>
 
@@ -156,7 +170,7 @@ Specifically including this Prettier plugin in your configuration might look som
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ProfessorManhattan/prettier-package-json-perfection/issues). If you would like to contribute, please take a look at the [contributing guide](https://github.com/ProfessorManhattan/prettier-package-json-perfection/blob/master/CONTRIBUTING.md).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ProfessorManhattan/prettier-plugin-package-perfection/issues). If you would like to contribute, please take a look at the [contributing guide](https://github.com/ProfessorManhattan/prettier-plugin-package-perfection/blob/master/CONTRIBUTING.md).
 
 <details>
 <summary><b>Sponsorship</b></summary>
@@ -187,4 +201,4 @@ I create open source projects out of love. Although I have a job, shelter, and a
 
 ## License
 
-Copyright © 2020-2021 [Megabyte LLC](https://megabyte.space). This project is [MIT](https://gitlab.com/megabyte-labs/npm/plugin/prettier-package-json-perfection/-/blob/master/LICENSE) licensed.
+Copyright © 2020-2021 [Megabyte LLC](https://megabyte.space). This project is [MIT](https://gitlab.com/megabyte-labs/npm/plugin/prettier-plugin-package-perfection/-/blob/master/LICENSE) licensed.

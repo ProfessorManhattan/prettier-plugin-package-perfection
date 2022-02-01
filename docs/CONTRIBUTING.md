@@ -36,7 +36,7 @@ First of all, thanks for visiting this page 😊 ❤️ ! We are _stoked_ that y
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [Code of Conduct](https://github.com/ProfessorManhattan/prettier-package-json-perfection/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [help@megabyte.space](mailto:help@megabyte.space).
+This project and everyone participating in it is governed by the [Code of Conduct](https://github.com/ProfessorManhattan/prettier-plugin-package-perfection/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [help@megabyte.space](mailto:help@megabyte.space).
 
 <a href="#overview" style="width:100%"><img style="width:100%" src="https://gitlab.com/megabyte-labs/assets/-/raw/master/png/aqua-divider.png" /></a>
 
@@ -53,7 +53,7 @@ After you run `npm i`, you can view the available pre-defined build tool command
 ```
 ❯ npm run info
 
-> prettier-package-json-perfection@1.0.4 info
+> prettier-plugin-package-perfection@1.0.4 info
 > npm-scripts-info
 
 build:
@@ -229,7 +229,7 @@ Running `npm link` with the `package.json` configuration listed above will insta
 
 ## Pull Requests
 
-All pull requests should be associated with issues. You can find the [issues board on GitLab](https://gitlab.com/megabyte-labs/docker/prettier-package-json-perfection/-/issues). The pull requests should be made to [the GitLab repository](https://gitlab.com/megabyte-labs/docker/prettier-package-json-perfection) instead of the [GitHub repository](ProfessorManhattan/npm-prettier-package-json-perfection). This is because we use GitLab as our primary repository and mirror the changes to GitHub for the community.
+All pull requests should be associated with issues. You can find the [issues board on GitLab](https://gitlab.com/megabyte-labs/docker/prettier-plugin-package-perfection/-/issues). The pull requests should be made to [the GitLab repository](https://gitlab.com/megabyte-labs/docker/prettier-plugin-package-perfection) instead of the [GitHub repository](ProfessorManhattan/npm-prettier-plugin-package-perfection). This is because we use GitLab as our primary repository and mirror the changes to GitHub for the community.
 
 ### How to Commit Code
 
