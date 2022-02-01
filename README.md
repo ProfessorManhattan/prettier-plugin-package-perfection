@@ -14,7 +14,7 @@
   <a href="https://megabyte.space" title="Megabyte Labs homepage" target="_blank">
     <img alt="Homepage" src="https://img.shields.io/website?down_color=%23FF4136&down_message=Down&label=Homepage&logo=home-assistant&logoColor=white&up_color=%232ECC40&up_message=Up&url=https%3A%2F%2Fmegabyte.space&style=for-the-badge" />
   </a>
-  <a href="https://github.com/ProfessorManhattan/prettier-plugin-package-perfection/blob/master/CONTRIBUTING.md" title="Learn about contributing" target="_blank">
+  <a href="https://github.com/ProfessorManhattan/prettier-plugin-package-perfection/blob/master/docs/CONTRIBUTING.md" title="Learn about contributing" target="_blank">
     <img alt="Contributing" src="https://img.shields.io/badge/Contributing-Guide-0074D9?logo=github-sponsors&logoColor=white&style=for-the-badge" />
   </a>
   <a href="https://app.slack.com/client/T01ABCG4NK1/C01NN74H0LW/details/" title="Chat with us on Slack" target="_blank">
@@ -170,7 +170,7 @@ Specifically including this Prettier plugin in your configuration might look som
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ProfessorManhattan/prettier-plugin-package-perfection/issues). If you would like to contribute, please take a look at the [contributing guide](https://github.com/ProfessorManhattan/prettier-plugin-package-perfection/blob/master/CONTRIBUTING.md).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ProfessorManhattan/prettier-plugin-package-perfection/issues). If you would like to contribute, please take a look at the [contributing guide](https://github.com/ProfessorManhattan/prettier-plugin-package-perfection/blob/master/docs/CONTRIBUTING.md).
 
 <details>
 <summary><b>Sponsorship</b></summary>
