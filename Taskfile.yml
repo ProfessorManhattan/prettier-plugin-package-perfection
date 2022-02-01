@@ -1,6 +1,5 @@
 ---
 version: "3"
-
 includes:
   ansible: ./.config/taskfiles/ansible/Taskfile.yml
   ansible:ansibler: ./.config/taskfiles/ansible/Taskfile-ansibler.yml
@@ -69,9 +68,7 @@ includes:
   web:ionic: ./.config/taskfiles/web/Taskfile-ionic.yml
   web:nx: ./.config/taskfiles/web/Taskfile-nx.yml
   web:profile: ./.config/taskfiles/web/Taskfile-profile.yml
-
 output: interleaved
-
 vars:
   DOCKERHUB_PROFILE: megabytelabs
   DOCKERHUB_USER: professormanhattan
@@ -79,12 +76,7 @@ vars:
   ESLINT_FORMATTER_OPTIONS: git-log gitlab pretty summary
   GITHUB_ORG: ProfessorManhattan
   GITHUB_USER: ProfessorManhattan
-  IGNORE_FOLDERS:
-    -path './.autodoc/*' -o -path './.cache/*' -o -path './.common*' -o -path './.config/*' -o -path './.git/*'
-    -o -path './.github/*' -o -path './.gitlab/*' -o -path './.husky/*' -o -path './.modules/*' -o -path './.npm/*'
-    -o -path './.pnpm-store/*' -o -path './.shared/*' -o -path './.task/*' -o -path './.venv/*' -o -path './.vscode/*'
-    -o -path './build/*' -o -path './dist/*' -o -path './node_modules/*' -o -path './roles/*' -o -name pnpm-lock.yaml
-    -o -name package-lock.json -o -name poetry.lock -o -name '.variables.json'
+  IGNORE_FOLDERS: -path './.autodoc/*' -o -path './.cache/*' -o -path './.common*' -o -path './.config/*' -o -path './.git/*' -o -path './.github/*' -o -path './.gitlab/*' -o -path './.husky/*' -o -path './.modules/*' -o -path './.npm/*' -o -path './.pnpm-store/*' -o -path './.shared/*' -o -path './.task/*' -o -path './.venv/*' -o -path './.vscode/*' -o -path './build/*' -o -path './dist/*' -o -path './node_modules/*' -o -path './roles/*' -o -name pnpm-lock.yaml -o -name package-lock.json -o -name poetry.lock -o -name '.variables.json'
   INIT_SCRIPT: https://gitlab.com/megabyte-labs/common/shared/-/raw/master/common/.gitlab/ci/scripts/update-init.sh
   LOG_FIX:
     sh: chmod +x .config/log && echo "heyhey"
@@ -101,7 +93,6 @@ vars:
   REPOSITORY_TYPE: npm
   SEMANTIC_CONFIG: semantic-release-config
   TIMEZONE: America/New_York
-
 profile: |
   PATH="$PATH:$HOME/.local/bin:$HOME/.poetry/bin"
   if [[ "$OSTYPE" == 'linux-gnu'* ]] || [[ "$OSTYPE" == 'linux-musl'* ]]; then
@@ -121,7 +112,6 @@ profile: |
   if [ -f .venv/bin/activate ]; then
     . .venv/bin/activate
   fi
-
 tasks:
   build:
     desc: Build the project
@@ -136,7 +126,6 @@ tasks:
       that are not present.
     cmds:
       - task: go:build
-
   cmds:
     - |
       {{if .CLI_ARGS}}
@@ -146,7 +135,6 @@ tasks:
       git add --all
       git commit
       {{end}}
-
   commit:
     deps:
       - install:software:git
@@ -180,7 +168,6 @@ tasks:
       an error so the auto-fixes still have to be validated.
     cmds:
       - fix:all
-
   group:exec:
     desc: Execute group commands on any GitLab group (including repositories in sub-groups)
     summary: |
@@ -200,7 +187,6 @@ tasks:
       In the example above, the bash command will be run in the root of each repository.
     cmds:
       - task: git:gitlab:group:exec
-
   init:
     desc: Runs the initialization script
     summary: |
@@ -225,7 +211,6 @@ tasks:
         else
           bash <(curl -sSL https://gitlab.com/megabyte-labs/common/shared/-/raw/master/common/.gitlab/ci/scripts/update-init.sh)
         fi
-
   lint:
     desc: Lints the project using all error-prone linters
     summary: |
@@ -239,7 +224,6 @@ tasks:
       `task lint`
     cmds:
       - task: lint:all
-
   livereload:
     deps:
       - install:npm:nodemon
@@ -279,7 +263,6 @@ tasks:
           .config/log error '`Taskfile-project.yml` must exist and have a `livereload` task to use with `nodemon`' && exit 1
         fi
       - nodemon --config {{if .CLI_ARGS}}{{.CLI_ARGS}}{{else}}.config/nodemon.json{{end}}
-
   preload:
     deps:
       - install:brewfile
@@ -316,7 +299,6 @@ tasks:
       - |
         .config/log success 'Successfully preloaded commonly used system applications'
         .config/log info 'Some software that requires a reboot may have been installed - rebooting would be prudent'
-
   prepare:
     desc: Prepares the project for the normal start command
     summary: |
@@ -329,7 +311,6 @@ tasks:
     cmds:
       - task: boilerplate:check:package
       - task: boilerplate:clean
-
   scripts:
     interactive: true
     deps:
@@ -344,7 +325,6 @@ tasks:
       their descriptions that you can interactively launch.
     cmds:
       - NTL_RUNNER={{.NPM_PROGRAM}} {{.NPX_HANDLE}}ntl
-
   services:
     desc: Update elements of the repository that require API access
     summary: |
@@ -355,7 +335,6 @@ tasks:
       API keys be set. Generally, only project owners will use this task.
     cmds:
       - task: common:update:services
-
   shell:
     desc: Start a terminal session using Docker with any Linux operating system
     summary: |
@@ -387,7 +366,6 @@ tasks:
       * ubuntu-21.04
     cmds:
       - task: common:shell
-
   start:
     desc: Set up the project and refresh it with the latest changes
     summary: |
