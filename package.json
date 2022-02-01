@@ -39,9 +39,10 @@
     "title": "The Best Package JSON Prettier Plugin"
   },
   "devDependencies": {
-    "@megabytelabs/eslint-config": "^1.0.75",
-    "@megabytelabs/jest-preset": "^1.0.0",
-    "@megabytelabs/prettier-config": "^14.14.14",
-    "@typescript-eslint/eslint-plugin": "^5.2.0"
-  }
+    "@washingtondc/development": "^1.0.2",
+    "@washingtondc/prettier": "^1.0.0",
+    "eslint-config-strict-mode": "^1.0.0",
+    "semantic-release-config": "^0.0.12"
+  },
+  "private": false
 }
