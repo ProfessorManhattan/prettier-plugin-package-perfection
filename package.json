@@ -3,9 +3,9 @@
   "blueprint": {
     "customPackageName": "prettier-plugin-package-perfection",
     "description": "A Prettier plugin that formats the package.json file by leveraging the prettier-package-json CLI library",
-    "github_id": "R_kgDOGxLTkQ",
+    "github_id": "R_kgDOGxNXXg",
     "gitlab_group_id": "",
-    "gitlab_project_id": "33303919",
+    "gitlab_project_id": "33305604",
     "group": "npm",
     "name": "Prettier Package JSON Prettier Plugin",
     "overview": "The **[prettier-package-json](https://www.npmjs.com/package/prettier-package-json)** CLI tool is easily the best `package.json` formatter available. However, despite its name, it is not a Prettier plugin. This project brings all of the great `prettier-package-json` features to Prettier as a plugin. It sorts in an opinionated style and also has some nifty features that other formatters do not have like:\n\n* Sorting in an opinionated manner (common elements at the top of the file and everything else sorted alphabetically afterwards)\n* Sorting scripts while keeping `pre` and `post` commands together\n* Removing redundant or unnecessary fields in favor of more compact syntax\n* More information available on the [prettier-package-json npmjs.org page](https://www.npmjs.com/package/prettier-package-json)",
