@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "plugin-prettier-plugin-package-perfection"
+name = "prettier-plugin-package-perfection"
 version = "1.0.6"
 description = "A Prettier plugin that formats the package.json file by leveraging the prettier-package-json CLI library"
 authors = ["Brian Zalewski <brian@megabyte.space>"]
