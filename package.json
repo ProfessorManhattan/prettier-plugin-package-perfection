@@ -45,8 +45,9 @@
   "dependencies": {
     "prettier": "^2.5.1",
     "prettier-package-json": "2.6.0",
-    "tslib": "^2.3.1"
+    "tslib": "latest"
   },
+  "optionalDependencies": {},
   "devDependencies": {
     "@commitlint/config-conventional": "^16.0.0",
     "@types/node": "^16.11.6",
