@@ -67,7 +67,9 @@
 - [Overview](#overview)
 - [Requirements](#requirements)
   - [Developer Requirements](#developer-requirements)
-- [This Repository (Shared Common)](#this-repository-shared-common)
+- [Usage / Installation](#usage--installation)
+- [Shared Configuration](#shared-configuration)
+- [Example Configuration](#example-configuration)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -103,11 +105,69 @@ npm run help
 
 `npm run help` will ensure Bodega is installed and then open an interactive dialog where you can explore and learn about various developer commands.
 
-<a href="#this-repository-shared-common" style="width:100%"><img style="width:100%" src="https://gitlab.com/megabyte-labs/assets/-/raw/master/png/aqua-divider.png" /></a>
+<a href="#usage--installation" style="width:100%"><img style="width:100%" src="https://gitlab.com/megabyte-labs/assets/-/raw/master/png/aqua-divider.png" /></a>
 
-## This Repository (Shared Common)
+## Usage / Installation
 
-This repository houses files that propagate downstream to project-specific repositories.
+Prettier plugins are automatically registered if their package name begins with `@prettier/plugin-`, `prettier-plugin-`, or `@<scope>/prettier-plugin-`. Since this package begins with `prettier-plugin-`, all you have to do is install it via:
+
+```shell
+npm install --save-dev prettier-plugin-package-perfection
+```
+
+That is it! You are good to go. Prettier should automatically pick up on the plugin.
+
+<a href="#shared-configuration" style="width:100%"><img style="width:100%" src="https://gitlab.com/megabyte-labs/assets/-/raw/master/png/aqua-divider.png" /></a>
+
+## Shared Configuration
+
+With Prettier, you can create a shared configuration that you can share across all your projects. To do this, you first have to find or create an NPM package that will house your configuration. Then, you have to set the `.prettier` key in `package.json` equal to the name of your shared configuration NPM package.
+
+You can find an [example shared configuration NPM package here](https://github.com/ProfessorManhattan/prettier-config-sexy-mode) (check out the `src/main.ts` file to see the magic). All the configuration does is export a typical configuration with `module.exports`. This opens the door for dynamically configuring your project's configuration and keeping things DRY.
+
+<a href="#example-configuration" style="width:100%"><img style="width:100%" src="https://gitlab.com/megabyte-labs/assets/-/raw/master/png/aqua-divider.png" /></a>
+
+## Example Configuration
+
+Specifically including this Prettier plugin in your configuration might look something like this:
+
+```json
+{
+  "bracketSpacing": true,
+  "printWidth": 120,
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "useTabs": false,
+  "goTemplateBracketSpacing": true,
+  "overrides": [
+    {
+      "files": ["*.go.html"],
+      "options": {
+        "parser": "go-template"
+      }
+    },
+    {
+      "files": ["*.yml"],
+      "options": {
+        "printWidth": 160
+      }
+    }
+  ],
+  "plugins": [
+    "@prettier/plugin-xml",
+    "prettier-plugin-go-template",
+    "prettier-plugin-ini",
+    "prettier-plugin-organize-imports",
+    "prettier-plugin-package-perfection",
+    "prettier-plugin-properties",
+    "prettier-plugin-sh"
+  ]
+}
+```
 
 <a href="#contributing" style="width:100%"><img style="width:100%" src="https://gitlab.com/megabyte-labs/assets/-/raw/master/png/aqua-divider.png" /></a>
 
