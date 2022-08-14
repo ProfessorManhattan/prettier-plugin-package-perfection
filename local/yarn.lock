@@ -2923,11 +2923,6 @@ prettier@^2.4.1:
   resolved "2.5.1"
   integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
 
-prettier@^2.5.1:
-  version "2.5.1"
-  resolved "2.5.1"
-  integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
-
 semantic-release-config@latest:
   version "1.1.21"
   resolved "1.1.21"
