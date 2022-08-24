@@ -59,11 +59,11 @@
     to-fast-properties "^2.0.0"
 
 "@commitlint/config-conventional@latest":
-  version "16.2.1"
-  resolved "16.2.1"
-  integrity sha512-cP9gArx7gnaj4IqmtCIcHdRjTYdRUi6lmGE+lOzGGjGe45qGOS8nyQQNvkNy2Ey2VqoSWuXXkD8zCUh6EHf1Ww==
+  version "17.0.3"
+  resolved "17.0.3"
+  integrity sha512-HCnzTm5ATwwwzNVq5Y57poS0a1oOOcd5pc1MmBpLbGmSysc4i7F/++JuwtdFPu16sgM3H9J/j2zznRLOSGVO2A==
   dependencies:
-    conventional-changelog-conventionalcommits "^4.3.1"
+    conventional-changelog-conventionalcommits "^5.0.0"
 
 "@eslint/eslintrc@^1.1.0":
   version "1.1.0"
@@ -568,9 +568,14 @@
   integrity sha512-NrTwfD7L1RTc2qrHQD4RTTy4p0CO2LatKBEKEds3CaVuhoM/+DJzmWZl5f+ikR8cm8F5mfJxK+9rQq07gRiSjQ==
 
 "@types/prettier@^2.1.5":
-  version "1.19.1"
-  resolved "1.19.1"
-  integrity sha512-5qOlnZscTn4xxM5MeGXAMOsIOIKIbh9e85zJWfBRVPlRMEVawzoPhINYbRGkBZCI8LxvBe7tJCdWiarA99OZfQ==
+  version "2.7.0"
+  resolved "2.7.0"
+  integrity sha512-RI1L7N4JnW5gQw2spvL7Sllfuf1SaHdrZpCHiBlCXjIlufi1SMNnbu2teze3/QE67Fg2tBlH7W+mi4hVNk4p0A==
+
+"@types/prettier@^2.7.0":
+  version "2.7.0"
+  resolved "2.7.0"
+  integrity sha512-RI1L7N4JnW5gQw2spvL7Sllfuf1SaHdrZpCHiBlCXjIlufi1SMNnbu2teze3/QE67Fg2tBlH7W+mi4hVNk4p0A==
 
 "@types/prop-types@*":
   version "15.7.4"
@@ -810,8 +815,8 @@ babel-preset-jest@^25.5.0:
 
 create-eslint-index@^1.0.0:
   version "1.0.0"
-  resolved "1.0.0#d954372d86d5792fcd67e9f2b791b1ab162411bb"
-  integrity sha1-2VQ3LYbVeS/NZ+nyt5GxqxYkEbs=
+  resolved "1.0.0"
+  integrity sha512-nXvJjnfDytOOaPOonX0h0a1ggMoqrhdekGeZkD6hkcWYvlCWhU719tKFVh8eU04CnMwu3uwe1JjwuUF2C3k2qg==
   dependencies:
     lodash.get "^4.3.0"
 
@@ -1087,8 +1092,8 @@ eslint-plugin-filenames@^1.3.2:
 
 eslint-plugin-fp@^2.3.0:
   version "2.3.0"
-  resolved "2.3.0#376d2a108710e981980bdc3875e3b9920da0489c"
-  integrity sha1-N20qEIcQ6YGYC9w4deO5kg2gSJw=
+  resolved "2.3.0"
+  integrity sha512-3n2oHibwoIxAht9/+ZaTldhI6brXORgl8oNXqZd+d9xuAQt2SBJ2/aml0oQRMWvXrgsz2WG6wfC++NjzSG3prA==
   dependencies:
     create-eslint-index "^1.0.0"
     eslint-ast-utils "^1.0.0"
@@ -1132,8 +1137,8 @@ eslint-plugin-import@^2.25.4:
 
 eslint-plugin-jest-async@^1.0.3:
   version "1.0.3"
-  resolved "1.0.3#69196702d8af85655b21a789a6fd75ca0a37800f"
-  integrity sha1-aRlnAtivhWVbIaeJpv11ygo3gA8=
+  resolved "1.0.3"
+  integrity sha512-NgpO6L9IWWgxxqbqvN+mCbGs4MMBsALpvagOFnWJgsQSkyYVmMzYwVe2b4Wpak3sfl8sPK13vnpqsEBNlpyTlQ==
   dependencies:
     requireindex "~1.1.0"
 
@@ -1326,8 +1331,8 @@ eslint-plugin-sort-keys-fix@^1.1.2:
 
 eslint-plugin-switch-case@^1.1.2:
   version "1.1.2"
-  resolved "1.1.2#a622db0c4c440828526b6f26f000d71e74850032"
-  integrity sha1-piLbDExECChSa28m8ADXHnSFADI=
+  resolved "1.1.2"
+  integrity sha512-mhDdJ6WX5LKv0PccziefBGPhIryJamgd3vTNqhEZUBeTGUeGdsgttwU/68xOViyScwr8RqCwTGC2Pd1cPYGNRg==
   dependencies:
     lodash.last "^3.0.0"
     lodash.zipobject "^4.0.0"
@@ -2720,22 +2725,22 @@ jest-watcher@^27.5.1:
 
 jest-worker@^25.1.0:
   version "23.2.0"
-  resolved "23.2.0#faf706a8da36fae60eb26957257fa7b5d8ea02b9"
-  integrity sha1-+vcGqNo2+uYOsmlXJX+ntdjqArk=
+  resolved "23.2.0"
+  integrity sha512-zx0uwPCDxToGfYyQiSHh7T/sKIxQFnQqT6Uug7Y/L7PzEkFITPaufjQe6yaf1OXSnGvKC5Fwol1hIym0zDzyvw==
   dependencies:
     merge-stream "^1.0.1"
 
 jest-worker@^25.5.0:
   version "23.2.0"
-  resolved "23.2.0#faf706a8da36fae60eb26957257fa7b5d8ea02b9"
-  integrity sha1-+vcGqNo2+uYOsmlXJX+ntdjqArk=
+  resolved "23.2.0"
+  integrity sha512-zx0uwPCDxToGfYyQiSHh7T/sKIxQFnQqT6Uug7Y/L7PzEkFITPaufjQe6yaf1OXSnGvKC5Fwol1hIym0zDzyvw==
   dependencies:
     merge-stream "^1.0.1"
 
 jest-worker@^27.5.1:
   version "23.2.0"
-  resolved "23.2.0#faf706a8da36fae60eb26957257fa7b5d8ea02b9"
-  integrity sha1-+vcGqNo2+uYOsmlXJX+ntdjqArk=
+  resolved "23.2.0"
+  integrity sha512-zx0uwPCDxToGfYyQiSHh7T/sKIxQFnQqT6Uug7Y/L7PzEkFITPaufjQe6yaf1OXSnGvKC5Fwol1hIym0zDzyvw==
   dependencies:
     merge-stream "^1.0.1"
 
@@ -2924,15 +2929,15 @@ prettier@^2.4.1:
   integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
 
 semantic-release-config@latest:
-  version "1.1.21"
-  resolved "1.1.21"
-  integrity sha512-22tm8SoZFzYhDEpvtAYT1nVgfABlEdqurjzJUK0xRNEUT1FwdvWpaqEzuGAGB3X71wnPjjdUPncm9o3S9Xddjg==
+  version "2.3.12"
+  resolved "2.3.12"
+  integrity sha512-so//BA+0GA3byI3rgmsLz/HypcEwFHbx0PtoGrfNARZnXHW5IMc9/TDDgM5gk4VPqGacpIoxEZZdTvGln0WkpQ==
   dependencies:
     "@semantic-release/changelog" "^6.0.1"
     "@semantic-release/commit-analyzer" "^9.0.2"
     "@semantic-release/exec" "^6.0.3"
     "@semantic-release/git" "^10.0.1"
-    "@semantic-release/gitlab" "^7.0.4"
+    "@semantic-release/gitlab" "^7.2.1"
     "@semantic-release/npm" "^9.0.1"
     "@semantic-release/release-notes-generator" "^10.0.3"
     conventional-changelog-emoji-config latest
@@ -2980,24 +2985,24 @@ ts-jest@^27.0.3:
     yargs-parser "20.x"
 
 tslib@2.3.1:
-  version "2.3.1"
-  resolved "2.3.1"
-  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
+  version "2.4.0"
+  resolved "2.4.0"
+  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
 tslib@^2.0.0:
-  version "2.3.1"
-  resolved "2.3.1"
-  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
+  version "2.4.0"
+  resolved "2.4.0"
+  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
 tslib@^2.3.1:
-  version "2.3.1"
-  resolved "2.3.1"
-  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
+  version "2.4.0"
+  resolved "2.4.0"
+  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
 tslib@latest:
-  version "2.3.1"
-  resolved "2.3.1"
-  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
+  version "2.4.0"
+  resolved "2.4.0"
+  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
 typescript@^4.5.5:
   version "4.6.2"

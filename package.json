@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build": "bash start.sh && task npm:build:tsconfig",
-    "bump": "npm run build && task npm:bump",
+    "bump": "bash start.sh && task npm:bump",
     "commit": "bash start.sh && task commit",
     "fix": "bash start.sh && task fix",
     "help": "bash start.sh && task --menu",
@@ -53,6 +53,7 @@
       "optional": true
     }
   },
+  "optionalDependencies": {},
   "devDependencies": {
     "@commitlint/config-conventional": "latest",
     "@types/node": "^16.11.6",
