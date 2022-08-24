@@ -6,7 +6,7 @@
   </center>
 </div>
 <div align="center">
-  <center><h1 align="center"><i></i>The Best Package JSON Prettier Plugin<i></i></h1></center>
+  <center><h1 align="center"><i></i>The Best package.json Prettier Plugin<i></i></h1></center>
   <center><h4 style="color: #18c3d1;">A plugin created by <a href="https://megabyte.space" target="_blank">Megabyte Labs</a></h4><i></i></center>
 </div>
 
