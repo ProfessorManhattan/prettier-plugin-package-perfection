@@ -108,7 +108,7 @@
     },
     "slug": "prettier-plugin-package-perfection",
     "subgroup": "plugin",
-    "title": "The Best package.json Prettier Plugin"
+    "title": "A Prettier package.json Prettier Plugin"
   },
   "changelog": {
     "displayTypes": [
