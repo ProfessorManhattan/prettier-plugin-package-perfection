@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "prettier-plugin-package-perfection",
-  "version": "1.0.11",
+  "version": "1.1.0",
   "description": "A Prettier plugin that formats the package.json file by leveraging the prettier-package-json CLI library",
   "license": "MIT",
   "author": "Brian Zalewski <brian@megabyte.space> (https://megabyte.space)",
