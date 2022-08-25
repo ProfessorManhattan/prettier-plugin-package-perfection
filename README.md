@@ -6,7 +6,7 @@
   </center>
 </div>
 <div align="center">
-  <center><h1 align="center"><i></i>A Prettier package.json Prettier Plugin<i></i></h1></center>
+  <center><h1 align="center"><i></i>Kinda Perfect package.json Prettier Plugin<i></i></h1></center>
   <center><h4 style="color: #18c3d1;">A plugin created by <a href="https://megabyte.space" target="_blank">Megabyte Labs</a></h4><i></i></center>
 </div>
 
@@ -32,8 +32,8 @@
 </div>
 <br/>
 <div align="center">
-  <a href="https://www.npmjs.com/package/prettier-plugin-package-perfection" title="Version 1.0.10" target="_blank">
-    <img alt="Version: 1.0.10" src="https://img.shields.io/badge/version-1.0.10-blue.svg?cacheSeconds=2592000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAACNJREFUCNdjIACY//+BEp9hhM3hAzYQwoBIAqEDYQrCZLwAAGlFKxU1nF9cAAAAAElFTkSuQmCC&style=flat-square" />
+  <a href="https://www.npmjs.com/package/prettier-plugin-package-perfection" title="Version 1.1.0" target="_blank">
+    <img alt="Version: 1.1.0" src="https://img.shields.io/badge/version-1.1.0-blue.svg?cacheSeconds=2592000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAACNJREFUCNdjIACY//+BEp9hhM3hAzYQwoBIAqEDYQrCZLwAAGlFKxU1nF9cAAAAAElFTkSuQmCC&style=flat-square" />
   </a>
   <a href="https://gitlab.com/megabyte-labs/npm/plugin/prettier-plugin-package-perfection/-/commits/master" title="GitLab CI build status" target="_blank">
     <img alt="Build status" src="https://img.shields.io/gitlab/pipeline-status/megabyte-labs/npm/plugin/prettier-plugin-package-perfection?branch=master&label=build&logo=gitlab&logoColor=white&style=flat-square">
